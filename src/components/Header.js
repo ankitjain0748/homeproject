@@ -12,6 +12,7 @@ function Header() {
                 <nav className="font-sen text-gray-800 dark:text-white uppercase text-lg lg:flex items-center hidden">
                     <Link to="/" className="py-2 px-6 flex">
                         Home
+                        
                     </Link>
                     <a  href="#custom_form_sec" className="py-2 px-6 flex">
                         Services 
