@@ -26,42 +26,34 @@ function List() {
 
     return (<>
 
-        <section className="service-provide Service-shap pt-0" id="custom_form_sec" >
-            <div className="container mx-auto">
-                <div className="row">
-                    <div className="col-12">
-                        <div className="title-box text-center">
-                            <h2 className="text-5xl sm:text-7xl">Service Provided</h2>
-                            <p className="text-sm sm:text-base text-gray-700 dark:text-white">Creating a window to let the world get to know you better.</p>
+<section className="service-provide Service-shap pt-0" id="custom_form_sec">
+    <div className="container mx-auto">
+        <div className="title-box text-center mb-4">
+            <h2 className="text-5xl sm:text-7xl mt-2">Service Provided</h2>
+            <p className="text-sm sm:text-base text-gray-700 dark:text-white">Creating a window to let the world get to know you better.</p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-5">
+            {servicesData.map((service, index) => (
+                <div className="col" key={index}>
+                    <div className="rplr-30">
+                        <div className="future-services services text-center animate-slideInUp" style={{ animationDuration: service.animationDuration }}>
+                            <div className="future-img mb-4">
+                                <a href={service.linkUrl}>
+                                    <img alt="itcompany" className="img-fluid" src={service.imageUrl} />
+                                </a>
+                            </div>
+                            <a href={service.linkUrl}>
+                                <h4 className="mb-3 text-xl sm:text-2xl">{service.title}</h4>
+                            </a>
+                            <p className="text-sm sm:text-base">{service.description}</p>
                         </div>
                     </div>
-                    
                 </div>
+            ))}
+        </div>
+    </div>
+</section>
 
-                <div className="row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {servicesData.map((service, index) => (
-                        <div className="col" key={index}>
-                            <div className="rplr-30">
-                                <div
-                                    className="future-services services text-center animate-slideInUp"
-                                    style={{ animationDuration: service.animationDuration }}
-                                >
-                                    <div className="future-img mb-4">
-                                        <a href={service.linkUrl}>
-                                            <img alt="itcompany" className="img-fluid" src={service.imageUrl} />
-                                        </a>
-                                    </div>
-                                    <a href={service.linkUrl}>
-                                        <h4 className="mb-3">{service.title}</h4>
-                                    </a>
-                                    <p>{service.description}</p>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            </div>
-        </section>
     </>);
 }
 

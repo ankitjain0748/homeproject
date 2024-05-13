@@ -41,8 +41,9 @@ function Contact() {
                             <div className="ml-4 mb-4">
                                 <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Our Address
                                 </h3>
-                                <p className="text-gray-600 dark:text-slate-400">1230 Maecenas Street Donec Road</p>
-                                <p className="text-gray-600 dark:text-slate-400">New York, EEUU</p>
+                                <p className="text-gray-600 dark:text-slate-400">         Basement shop no.55 ,near lal daba, opposite s r Electronics, 
+</p>
+                                <p className="text-gray-600 dark:text-slate-400">jaipur, (Rajasthan) ,India</p>
                             </div>
                         </li>
                         <li className="flex">
@@ -60,8 +61,8 @@ function Contact() {
                             <div className="ml-4 mb-4">
                                 <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Contact
                                 </h3>
-                                <p className="text-gray-600 dark:text-slate-400">Mobile: +1 (123) 456-7890</p>
-                                <p className="text-gray-600 dark:text-slate-400">Mail: tailnext@gmail.com</p>
+                                <p className="text-gray-600 dark:text-slate-400">Mobile:+91 9521343393</p>
+                                <p className="text-gray-600 dark:text-slate-400">Mail:goscopify@gmail.com</p>
                             </div>
                         </li>
                         <li className="flex">
@@ -76,8 +77,8 @@ function Contact() {
                             <div className="ml-4 mb-4">
                                 <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Working
                                     hours</h3>
-                                <p className="text-gray-600 dark:text-slate-400">Monday - Friday: 08:00 - 17:00</p>
-                                <p className="text-gray-600 dark:text-slate-400">Saturday &amp; Sunday: 08:00 - 12:00</p>
+                                <p className="text-gray-600 dark:text-slate-400">Monday - Friday: 10:00 - 19:00</p>
+                                {/* <p className="text-gray-600 dark:text-slate-400">Saturday &am: 10:00 - 18:00</p> */}
                             </div>
                         </li>
                     </ul>

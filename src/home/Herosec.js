@@ -18,10 +18,10 @@ function Herosec() {
                 Bringing the world of IT to your fingertips with the leading web development company in Jaipur. Experience seamless and efficient technology solutions tailored to your needs
                 </p>
                 <div className="flex mt-8">
-                    <Link to="/contact" className="uppercase py-2 px-4 rounded-lg bg-pink-500 border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400">
+                    <Link to="/contact" className="uppercase py-2 px-4 rounded-lg bg-grey-500 border-2 border-black-500 text-black text-md mr-4 hover:bg-black-400">
                         Get started
                     </Link>
-                    <a href="#custom_form_sec"  className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-pink-500 text-pink-500 dark:text-white hover:bg-pink-500 hover:text-white text-md">
+                    <a href="#custom_form_sec"  className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-black-500 text-white-500 dark:text-white hover:bg-black-500 hover:text-white text-md">
                         Read more
                     </a>
                 </div>
