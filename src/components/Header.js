@@ -29,9 +29,9 @@ function Header() {
                                 </Link>
                             </nav>
                             <button className="lg:hidden flex flex-col ml-6" onClick={toggleMenu}>
-                                <span className="w-8 h-2 bg-gray-800 dark:bg-white mb-1"></span>
-                                <span className="w-8 h-2 bg-gray-800 dark:bg-white mb-1"></span>
-                                <span className="w-8 h-2 bg-gray-800 dark:bg-white mb-1"></span>
+                                <span className="w-6 h-1 bg-gray-800 dark:bg-white mb-1"></span>
+                                <span className="w-6 h-1 bg-gray-800 dark:bg-white mb-1"></span>
+                                <span className="w-6 h-1 bg-gray-800 dark:bg-white mb-1"></span>
                             </button>
                         </div>
                     </div>
