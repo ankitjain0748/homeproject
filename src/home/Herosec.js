@@ -14,7 +14,7 @@ function Herosec() {
                      Delivery
                     </span>
                 </h1>
-                <p className="text-sm sm:text-base text-gray-700 dark:text-white">
+                <p className="text-sm sm:text-base text-gray-700 dark:text-white mt-3">
                 Bringing the world of IT to your fingertips with the leading web development company in Jaipur. Experience seamless and efficient technology solutions tailored to your needs
                 </p>
                 <div className="flex mt-8">
