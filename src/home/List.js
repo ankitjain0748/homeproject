@@ -30,8 +30,8 @@ function List() {
         <section className="service-provide Service-shap pt-0" id="custom_form_sec">
             <div className="container mx-auto">
                 <div className="title-box text-center mb-4">
-                    <h2 className="mb-3 text-4xl sm:text-3xl p-3">Service Provided</h2>
-                    <p className="text-sm sm:text-4xl m-3 p-4 text-gray-700 dark:text-white">Creating a window to let the world get to know you better.</p>
+                    <h2 className="mb-2 text-4xl sm:text-3xl p-2 text-justify">Service Provided</h2>
+                    <p className="text-sm sm:text-4xl m-2 p-2 text-gray-700 text-justify dark:text-white">Creating a window to let the world get to know you better.</p>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-5">
                     {servicesData.map((service, index) => (
@@ -44,9 +44,9 @@ function List() {
                                         </a>
                                     </div>
                                     <a href={service.linkUrl}>
-                                        <h4 className="mb-3 text-xl sm:text-2xl p-3 ">{service.title}</h4>
+                                        <h4 className="mb-1 text-xl sm:text-2xl p-2 text-center  ">{service.title}</h4>
                                     </a>
-                                    <p className="text-sm sm:text-base m-5 mt-3 p-4">{service.description}</p>
+                                    <p className="text-sm sm:text-base text-justify m-2 mt-2 p-3">{service.description}</p>
                                 </div>
                             </div>
                         </div>
