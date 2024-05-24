@@ -21,7 +21,7 @@ function Herosec() {
                     <Link to="/contact" className="uppercase py-2 px-4 rounded-lg bg-grey-500 border-2 border-black-500 text-black text-md mr-4 hover:bg-black-400">
                         Get started
                     </Link>
-                    <a href="#custom_form_sec"  className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-black-500 text-white-500 dark:text-white hover:bg-black-500 hover:text-white text-md">
+                    <a href="#custom_form_sec"  className="uppercase py-2 px-4 rounded-lg bg-white  border-2 border-black-500 text-white-500 dark:text-white hover:bg-black-500 hover:text-white text-md">
                         Read more
                     </a>
                 </div>
