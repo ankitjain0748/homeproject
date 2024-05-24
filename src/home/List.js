@@ -31,7 +31,7 @@ function List() {
             <div className="container mx-auto">
                 <div className="title-box text-center mb-4">
                     <h2 className="mb-2 text-4xl sm:text-3xl p-2 text-center">Service Provided</h2>
-                    <p className="text-sm sm:text-4xl m-2 p-2 text-gray-700 text-justify dark:text-white">Creating a window to let the world get to know you better.</p>
+                    <p className="text-sm sm:text-4xl m-2 p-2 text-gray-700 text-center dark:text-white">Creating a window to let the world get to know you better.</p>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-5">
                     {servicesData.map((service, index) => (
