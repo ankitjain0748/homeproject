@@ -1,3 +1,5 @@
+import React from 'react';
+
 function List() {
     const servicesData = [
         {
@@ -24,37 +26,35 @@ function List() {
         // Add more services as needed
     ];
 
-    return (<>
-
-<section className="service-provide Service-shap pt-0" id="custom_form_sec">
-    <div className="container mx-auto">
-        <div className="title-box text-center mb-4">
-            <h2 className="text-5xl sm:text-7xl mt-2">Service Provided</h2>
-            <p className="text-sm sm:text-base text-gray-700 dark:text-white">Creating a window to let the world get to know you better.</p>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-5">
-            {servicesData.map((service, index) => (
-                <div className="col" key={index}>
-                    <div className="rplr-30">
-                        <div className="future-services services text-center animate-slideInUp" style={{ animationDuration: service.animationDuration }}>
-                            <div className="future-img mb-4">
-                                <a href={service.linkUrl}>
-                                    <img alt="itcompany" className="img-fluid" src={service.imageUrl} />
-                                </a>
-                            </div>
-                            <a href={service.linkUrl}>
-                                <h4 className="mb-3 text-xl sm:text-2xl">{service.title}</h4>
-                            </a>
-                            <p className="text-sm sm:text-base">{service.description}</p>
-                        </div>
-                    </div>
+    return (
+        <section className="service-provide Service-shap pt-0" id="custom_form_sec">
+            <div className="container mx-auto">
+                <div className="title-box text-center mb-4">
+                    <h2 className="mb-3 text-4xl sm:text-3xl p-3">Service Provided</h2>
+                    <p className="text-sm sm:text-4xl m-3 p-4 text-gray-700 dark:text-white">Creating a window to let the world get to know you better.</p>
                 </div>
-            ))}
-        </div>
-    </div>
-</section>
-
-    </>);
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-5">
+                    {servicesData.map((service, index) => (
+                        <div className="col" key={index}>
+                            <div className="rplr-30">
+                                <div className="future-services services text-center animate-slideInUp" style={{ animationDuration: service.animationDuration }}>
+                                    <div className="future-img mb-4 mx-auto" style={{ width: "fit-content" }}>
+                                        <a href={service.linkUrl}>
+                                            <img alt="itcompany" className="img-fluid" src={service.imageUrl} />
+                                        </a>
+                                    </div>
+                                    <a href={service.linkUrl}>
+                                        <h4 className="mb-3 text-xl sm:text-2xl p-3 ">{service.title}</h4>
+                                    </a>
+                                    <p className="text-sm sm:text-base m-5 mt-3 p-4">{service.description}</p>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
 }
 
 export default List;
