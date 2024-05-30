@@ -5,8 +5,9 @@
 
 @layer components {
   .btn-primary {
-      @apply py-1.5 px-3 text-center bg-blue-700 rounded-md text-white;
+    @apply py-1.5 px-3 text-center bg-blue-700 rounded-md text-white;
   }
+
   .primary-gradient {
     @apply bg-gradient-to-br from-violet-500 to-violet-400;
   }
@@ -32,6 +33,30 @@
   height: 350px;
 }
 
+a img.logo-img {
+  width: 75px;
+  height: 75px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (max-width: 575px) {
+  a img.logo-img {
+    max-width: 100%;
+    width: 70px;
+    height: 70px;
+}
+}
+
+@media (max-width:991px) {
+  a img.logo-img {
+    max-width: 100%;
+    width: 70px;
+    height: 70px;
+}
+}
+
 
 
 .App-header {
@@ -53,6 +78,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

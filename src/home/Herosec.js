@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Heroimg from "../image/ss9-1.png"
 
 function Herosec() {
     return ( 
@@ -26,8 +27,8 @@ function Herosec() {
                     </a>
                 </div>
             </div>
-            <div className="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
-                <img src="https://www.tailwind-kit.com/images/object/10.png" className="max-w-xs md:max-w-sm m-auto" alt="hello"/>
+            <div className="hidden sm:block sm:w-1/3 lg:w-3/5 relative ">
+                <img src={Heroimg} className="max-w-xs md:max-w-sm m-auto img-fuild" alt="hello"/>
             </div>
         </div>
     </div>
